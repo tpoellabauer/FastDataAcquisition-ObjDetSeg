@@ -1,5 +1,5 @@
 # FastDataAcquisition-ObjDetSeg
-Code for our paper "Fast Training Data Acquisition for Object Detection and Segmentation using Black Screen Luminance Keying"  
+Code for our paper ["Fast Training Data Acquisition for Object Detection and Segmentation using Black Screen Luminance Keying"](https://arxiv.org/abs/2405.07653)  
 
 The first script takes videos of the objects in front of a black screen with high light absorption and saves the RGBA images, the alpha representing the object mask. The second script creates a dataset consisting of randomly placed objects on randomly selected background images. It uses alpha blending and strong augmentation. The objects are rotated and scaled randomly.  
 
